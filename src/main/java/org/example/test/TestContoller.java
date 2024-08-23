@@ -14,7 +14,7 @@ public class TestContoller {
     @PostMapping(value = "/register")
     public ResponseEntity<String> register( ) {
 
-        return ResponseEntity.ok("등록 성공");
+        return ResponseEntity.ok("등록 성공입니다.");
     }
 
 }
